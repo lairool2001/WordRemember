@@ -1,0 +1,15 @@
+F:\project\BeDanJi\WordRemember\BeDanJi\bin\Debug\BeDanJi.exe.config
+F:\project\BeDanJi\WordRemember\BeDanJi\bin\Debug\BeDanJi.exe
+F:\project\BeDanJi\WordRemember\BeDanJi\bin\Debug\BeDanJi.pdb
+F:\project\BeDanJi\WordRemember\BeDanJi\obj\Debug\BeDanJi.csprojAssemblyReference.cache
+F:\project\BeDanJi\WordRemember\BeDanJi\obj\Debug\BeDanJi.Form1.resources
+F:\project\BeDanJi\WordRemember\BeDanJi\obj\Debug\BeDanJi.Form2.resources
+F:\project\BeDanJi\WordRemember\BeDanJi\obj\Debug\BeDanJi.Properties.Resources.resources
+F:\project\BeDanJi\WordRemember\BeDanJi\obj\Debug\BeDanJi.csproj.GenerateResource.cache
+F:\project\BeDanJi\WordRemember\BeDanJi\obj\Debug\BeDanJi.csproj.CoreCompileInputs.cache
+F:\project\BeDanJi\WordRemember\BeDanJi\obj\Debug\BeDanJi.exe
+F:\project\BeDanJi\WordRemember\BeDanJi\obj\Debug\BeDanJi.pdb
+F:\project\BeDanJi\WordRemember\BeDanJi\bin\Debug\Newtonsoft.Json.dll
+F:\project\BeDanJi\WordRemember\BeDanJi\bin\Debug\Newtonsoft.Json.pdb
+F:\project\BeDanJi\WordRemember\BeDanJi\bin\Debug\Newtonsoft.Json.xml
+F:\project\BeDanJi\WordRemember\BeDanJi\obj\Debug\BeDanJi.csproj.CopyComplete

@@ -65,6 +65,7 @@ namespace BeDanJi
             this.buttonManageQList.TabIndex = 2;
             this.buttonManageQList.Text = "管理字庫";
             this.buttonManageQList.UseVisualStyleBackColor = true;
+            this.buttonManageQList.Click += new System.EventHandler(this.buttonManageQList_Click);
             // 
             // buttonUser
             // 
@@ -135,6 +136,7 @@ namespace BeDanJi
             this.Controls.Add(this.richTextBoxQ);
             this.Name = "Form1";
             this.Text = "SelfTestDanJi";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 
