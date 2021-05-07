@@ -16,8 +16,8 @@ namespace BeDanJi
         public List<QandA> qAndAList = new List<QandA>();
         public static UserLibrary loadFromName(string userName)
         {
-            string path = Path.Combine(Environment.CurrentDirectory, userName);
-            if (Directory.Exists(path))
+            string path = Path.Combine(Environment.CurrentDirectory, SystemStrings.user, userName + "." + SystemStrings.user);
+            if (File.Exists(path))
             {
                 return JsonConvert.DeserializeObject<UserLibrary>(File.ReadAllText(path));
             }
@@ -28,7 +28,12 @@ namespace BeDanJi
         }
         public void save()
         {
-            string path = Path.Combine(Environment.CurrentDirectory, userName);
+            string userFolder = Path.Combine(Environment.CurrentDirectory, "user");
+            string path = Path.Combine(userFolder, userName + ".user");
+            if (!Directory.Exists(Path.Combine(Environment.CurrentDirectory, "user")))
+            {
+                Directory.CreateDirectory(userFolder);
+            }
             string data = JsonConvert.SerializeObject(this);
             File.WriteAllText(path, data, Encoding.UTF8);
         }

@@ -58,5 +58,29 @@ namespace BeDanJi
                 MessageBox.Show("匯入了" + listBox1.Items.Count + "個到" + UserLibrary.nowUserLibrary.userName + "的庫");
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (UserLibrary.nowUserLibrary != null)
+            {
+                int del = 0;
+                for (int i = 0; i < listBox1.Items.Count; i++)
+                {
+                    QandA item = listBox1.Items[i] as QandA;
+                    for (int j = 0; j < UserLibrary.nowUserLibrary.qAndAList.Count; j++)
+                    {
+                        QandA qandA2 = UserLibrary.nowUserLibrary.qAndAList[j];
+                        if (qandA2.q == item.q)
+                        {
+                            del++;
+                            UserLibrary.nowUserLibrary.qAndAList.RemoveAt(j);
+                            break;
+                        }
+                    }
+                }
+                UserLibrary.nowUserLibrary.save();
+                MessageBox.Show("刪除了" + del + "個在" + UserLibrary.nowUserLibrary.userName + "的庫");
+            }
+        }
     }
 }

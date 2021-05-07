@@ -13,3 +13,4 @@ F:\project\BeDanJi\WordRemember\BeDanJi\bin\Debug\Newtonsoft.Json.dll
 F:\project\BeDanJi\WordRemember\BeDanJi\bin\Debug\Newtonsoft.Json.pdb
 F:\project\BeDanJi\WordRemember\BeDanJi\bin\Debug\Newtonsoft.Json.xml
 F:\project\BeDanJi\WordRemember\BeDanJi\obj\Debug\BeDanJi.csproj.CopyComplete
+F:\project\BeDanJi\WordRemember\BeDanJi\obj\Debug\BeDanJi.Form3.resources

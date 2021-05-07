@@ -75,6 +75,7 @@ namespace BeDanJi
             this.buttonUser.TabIndex = 3;
             this.buttonUser.Text = "管理使用者";
             this.buttonUser.UseVisualStyleBackColor = true;
+            this.buttonUser.Click += new System.EventHandler(this.buttonUser_Click);
             // 
             // buttonYes
             // 
